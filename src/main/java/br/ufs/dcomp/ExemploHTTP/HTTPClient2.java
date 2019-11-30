@@ -47,7 +47,7 @@ public class HTTPClient2
          * Leitura do conteúdo da resposta HTTP e escrita em arquivo
          */    
 
-        // Arquivo onde o conteúdo da resposta será escrito
+        //  Arquivo onde o conteúdo da resposta será escrito
         File file = new File("/home/ubuntu/environment/sistemas-distribuidos/ExemploHTTPJava/logo_unicamp_novo_0.png");
         FileOutputStream fos = new FileOutputStream(file);
         
